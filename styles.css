@@ -1,0 +1,45 @@
+﻿body {
+    background-color: azure;
+    font-family: sans-serif;
+    color: cadetblue;
+}
+
+h1, h2, h3 {
+    text-decoration: underline;
+}
+
+img {
+    float: right;
+    width: 150px;
+    height: 150px;
+}
+
+table, td {
+    width: 82%;
+    align-self:center;
+}
+
+tr:nth-child(2n+1) {
+    background-color: antiquewhite
+}
+
+a:link {
+    color: darkblue;
+}
+a:visited {
+    color: #954F72;
+}
+a:hover {
+    color: steelblue;
+}
+
+div {
+
+    background-color: antiquewhite;
+    color: saddlebrown
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
