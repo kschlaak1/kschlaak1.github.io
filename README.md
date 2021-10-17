@@ -1,91 +1,90 @@
 # kschlaak1.github.io
 <p>test</p>
 
-<html>
-<head>
 
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="utf-8" />
 
-    <title>Kemper's page</title>
 
-</head>
+<link rel="stylesheet" href="styles.css">
+<meta charset="utf-8" />
 
-<body>
 
-    <h1>Kemper Schlaak</h1>
 
-    <img src="me.png" alt="This is me" />
 
-    <h3>My assignments</h3>
 
-    
-        <table>
-            <tr>
-                <td><a href="home.html">Assignment 1</a></td>
-            </tr>
-            <tr>
-                <td><a href="home.html">Assignment 2</a></td>
-            </tr>
-            <tr>
-                <td><a href="home.html">Assignment 3</a></td>
-            </tr>
-            <tr>
-                <td><a href="home.html">Assignment 4</a></td>
-            </tr>
-            <tr>
-                <td><a href="home.html">Assignment 5</a></td>
-            </tr>
-        </table>
-  
 
-    <h3><a href="http://www.cs.gsu.edu" target="_blank"><span>Computer Science</span> Department</a></h3>
+<h1>Kemper Schlaak</h1>
 
-    <h3>Hobbies</h3>
-    <ul>
-        <li><a href="https://ausopen.com" target="blank">Tennis</a></li>
-        <li>Video Games</li>
-        <li><a href="https://soundcloud.com/oliverxfrancis3" target="_blank">Music</a></li>
-        <li>Cooking</li>
-    </ul>
+<img src="me.png" alt="This is me" />
 
-    <h3>Experience</h3>
+<h3>My assignments</h3>
 
-    <ul>
-        <li>
-            <h3>Education</h3>
-            <ul>
-                <li><a href="https://oglethorpe.edu" target="_blank">Oglethorpe University</a></li>
-                <li><a href="https://www.gsu.edu" target="_blank"><span>Georgia State University</span></a></li>
-            </ul>
-        </li>
-        <li>
-            <h3>Job History</h3>
-            <ul>
-                <li><a href="https://www.collegeworks.com" target="_blank">College Works Painting</a></li>
-                <li><a href="https://cinebistro.com" target="_blank">Cinebistro</a></li>
-            </ul>
-        </li>
-    </ul>
 
-    <div>
-        <h3>Quote of the Day</h3>
-        <p>I know one day I'll turn the corner and I won't be ready for it</p>
-        <p>- Jean-Michel Basquiat</p>
-    </div>
+<table>
+<tr>
+<td><a href="home.html">Assignment 1</a></td>
+</tr>
+<tr>
+<td><a href="home.html">Assignment 2</a></td>
+</tr>
+<tr>
+<td><a href="home.html">Assignment 3</a></td>
+</tr>
+<tr>
+<td><a href="home.html">Assignment 4</a></td>
+</tr>
+<tr>
+<td><a href="home.html">Assignment 5</a></td>
+</tr>
+</table>
 
-    <h3>List of things</h3>
-    <ul>
-        <li>Pizza</li>
-        <li>Mac&Cheese</li>
-        <li>Sleeping in</li>
-        <li>Whatever else</li>
-        <li>Helplessness Blues</li>
-        <li>To Pimp a Butterfly</li>
-        <li>John IV</li>
-        <li>Born & Raised</li>
-        <li>Faces</li>
-    </ul>
 
-</body>
-</html>
+<h3><a href="http://www.cs.gsu.edu" target="_blank"><span>Computer Science</span> Department</a></h3>
+
+<h3>Hobbies</h3>
+<ul>
+<li><a href="https://ausopen.com" target="blank">Tennis</a></li>
+<li>Video Games</li>
+<li><a href="https://soundcloud.com/oliverxfrancis3" target="_blank">Music</a></li>
+<li>Cooking</li>
+</ul>
+
+<h3>Experience</h3>
+
+<ul>
+<li>
+<h3>Education</h3>
+<ul>
+<li><a href="https://oglethorpe.edu" target="_blank">Oglethorpe University</a></li>
+<li><a href="https://www.gsu.edu" target="_blank"><span>Georgia State University</span></a></li>
+</ul>
+</li>
+<li>
+<h3>Job History</h3>
+<ul>
+<li><a href="https://www.collegeworks.com" target="_blank">College Works Painting</a></li>
+<li><a href="https://cinebistro.com" target="_blank">Cinebistro</a></li>
+</ul>
+</li>
+</ul>
+
+<div>
+<h3>Quote of the Day</h3>
+<p>I know one day I'll turn the corner and I won't be ready for it</p>
+<p>- Jean-Michel Basquiat</p>
+</div>
+
+<h3>List of things</h3>
+<ul>
+<li>Pizza</li>
+<li>Mac&Cheese</li>
+<li>Sleeping in</li>
+<li>Whatever else</li>
+<li>Helplessness Blues</li>
+<li>To Pimp a Butterfly</li>
+<li>John IV</li>
+<li>Born & Raised</li>
+<li>Faces</li>
+</ul>
+
+
+
