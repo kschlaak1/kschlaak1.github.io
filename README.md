@@ -1,18 +1,7 @@
-# kschlaak1.github.io
-<p>test</p>
-
-
-
+<h1>Kemper Schlaak</h1>
 
 <link rel="stylesheet" href="styles.css">
 <meta charset="utf-8" />
-
-
-
-
-
-
-<h1>Kemper Schlaak</h1>
 
 <img src="me.png" alt="This is me" />
 
