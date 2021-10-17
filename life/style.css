@@ -1,0 +1,45 @@
+body {
+    background: teal;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin: 5%;
+}
+
+a {
+    color: cyan;
+}
+
+.formLayout {
+    background-image: url("life.gif");
+    background-size: 115%;
+    background-position: -60px -90px;
+    position: relative;
+    width: 50%;
+    margin: auto;
+    padding: 2%;
+    border-radius: 6px;
+    border: 1px solid #fff;
+}
+
+.formLayout label {
+    width: 15%;
+    padding: 2%;
+    display: inline-block;
+    text-align: right;
+}
+
+.formLayout input {
+    border: 1px solid rgba(255, 255, 255, 0.335);
+    border-radius: 6px;
+    font-size: medium;
+    margin-top: 2%;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}

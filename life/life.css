@@ -1,0 +1,93 @@
+body {
+    background: cadetblue;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 10pt;
+    margin: 0%;
+}
+
+ol {
+    padding: 5%;
+}
+
+li {
+    text-align: left;
+    margin: 1%;
+}
+
+h2 {
+    margin: 0;
+}
+
+.grid {
+    position: relative;
+    background: #fff;
+    border: 1px solid #000;
+    display: inline-block;
+}
+
+.panel {
+    position: relative;
+    background-color: lavender;
+    width: 220px;
+    border: 1px solid #000;
+    padding: 1%;
+    margin-right: 1%;
+    float: right;
+}
+
+.rules {
+    position: relative;
+    background-color: lavender;
+    width: 220px;
+    border: 1px solid #000;
+    padding: 1%;
+    margin-left: 1%;
+    float: left;
+}
+
+#generation {
+    padding: 5px;
+}
+
+.buttons {
+    padding: 5px;
+}
+
+.buttons button {
+    width: 210px;
+}
+
+.abutton {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 2px;
+    width: 96%;
+    border: 1px solid #adadad;
+    background-color: #e1e1e1;
+    margin: auto;
+    margin-top: 0;
+}
+
+.white {
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
