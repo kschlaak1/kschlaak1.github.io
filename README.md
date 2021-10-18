@@ -5,4 +5,4 @@ Some projects I've worked on:
 
 [Home page](home.html)
 
-[Life](life/life.php)
+[Life](life/life.html)
