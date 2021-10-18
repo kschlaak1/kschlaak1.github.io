@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,9 +15,11 @@
     <div id="controls">
         <div id="round">Generation: <span>0</span></div>
 
-        <div id="buttons">
-            <!--<button id="run" type="button">Start</button>-->
-            <button id="start" type="button">Start</button>
+        <div id="buttons"> -->
+
+            <!-- <button id="run" type="button">Start</button> -->
+
+            <!-- <button id="start" type="button">Start</button>
             <button id="stop" type="button">Stop</button>
             <button id="step" type="button">Increment 1</button>
             <button id="step23" type="button">Increment 23</button>
@@ -34,4 +36,77 @@
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="life.js"></script>
 </body>
+</html> -->
+
+<?php
+session_start();
+
+// if (!isset($_SESSION["validated"]) || $_SESSION["validated"] !== true) { //page can only be accessed if in validated session
+//     header("location: login.php");
+//     exit;
+// }
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life</title>
+    <link href="life.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h1 class="white">Conway's Game of Life</h1>
+    <div class=rules>
+        <h2>Rules</h2>
+        <hr>
+        <ol>
+            <li>A living cell with fewer than two neighbors will die</li>
+            <li>A living cell with two or three neighbors will live on to the next generation</li>
+            <li>A living cell with more than three neighbors will die</li>
+            <li>A dead cell with three neighbors will revive</li>
+        </ol>
+        <hr>
+        <p>Click on a cell to kill or revive it</p>
+        <p>Try coming up with your own patterns or use the drop down menu to see some special designs!</p>
+    </div>
+    <div class="grid">
+        <canvas id="game"></canvas>
+    </div>
+    <div class="panel">
+        <div id="generation">Generation: <span>0</span></div>
+        <hr>
+        <div class="buttons">
+            <button id="start" type="button">Start</button>
+            <button id="stop" type="button">Stop</button>
+            <hr>
+            <button id="inc" type="button">Increment 1</button>
+            <button id="inc23" type="button">Increment 23</button>
+            <button id="rand" type="button">Random</button>
+            <hr>
+            <div class="dropdown">
+                <button> Patterns</button>
+                <div class="dropdown-content">
+                    <button id="beehive" type="button">Beehive</button>
+                    <button id="blinker" type="button">Blinker</button>
+                    <button id="toad" type="button">Toad</button>
+                    <button id="acorn" type="button">Acorn</button>
+                    <button id="glider" type="button">Glider</button>
+                    <button id="spaceship" type="button">Spaceship</button>
+                    <button id="gun" type="button">Gosper’s Glider Gun</button>
+                    <button id="line" type="button">Line</button>
+                </div>
+            </div>
+            <hr>
+            <button id="reset" type="button">Reset</button>
+            <hr>
+            <a class="abutton" href="logout.php">Sign Out</a>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="life.js"></script>
+</body>
+
 </html>
