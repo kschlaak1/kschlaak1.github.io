@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-if (!isset($_SESSION["validated"]) || $_SESSION["validated"] !== true) { //page can only be accessed if in validated session
-    header("location: login.php");
-    exit;
-}
+// if (!isset($_SESSION["validated"]) || $_SESSION["validated"] !== true) { //page can only be accessed if in validated session
+//     header("location: login.php");
+//     exit;
+// }
 ?>
 
 <!DOCTYPE html>
