@@ -5,7 +5,7 @@ Some projects I've worked on:
 
 
 
-- [Life](life/life.html) - This is Conway's Game of Life contstructed with HTML, CSS, and Javascript. (Made accessable with no database)
+- [Life](life/life.html) - This is Conway's Game of Life contstructed with HTML, PHP, CSS, and Javascript. 
 
   - [Here](life/login.php)  - This is a login page used to access Conway's Game of Life page thru php. (Database currently not running)
 
