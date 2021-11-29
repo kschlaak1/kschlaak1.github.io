@@ -11,3 +11,4 @@ Some projects I've worked on:
 
 -I made a [video](https://www.youtube.com/watch?v=6erkLc7cwDs&t=16s) showing a demo of it all working together and explaining how it was made.
 
+- [Quick start]
