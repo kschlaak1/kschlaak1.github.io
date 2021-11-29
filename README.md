@@ -9,4 +9,4 @@ Some projects I've worked on:
 
   - [Here](life/login.php)  - This is a login page used to access Conway's Game of Life page thru php. (Database currently not running)
 
-  - I made a [video](https://www.youtube.com/watch?v=6erkLc7cwDs&t=16s) showing a demo of it all working together and explaining how it was made.
+  - I made a [video](https://www.youtube.com/watch?v=6erkLc7cwDs&t=16s) where I explain what Conway's Game of Life is and a demo of it all working together while explaining how it was made.
