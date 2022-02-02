@@ -1,0 +1,180 @@
+.login {
+   background: darkred;
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: large;
+}
+
+.registration {
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: large;
+}
+
+.leaderboard {
+   background: darkred;
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.pageContainer {
+   width: 90%;
+   max-width: 55%;
+   margin: 1% auto;
+   padding: 25px;
+   border: 1px black solid;
+   background: blanchedalmond;
+   min-height: 500px;
+   border-radius: 10px;
+}
+
+.focus-in-title {
+   text-align: center;
+   font-size: 20px;
+   -webkit-animation: focus-in-title 0.7s ease-in both;
+   animation: focus-in-title 0.7s ease-in both;
+}
+
+@keyframes focus-in-title {
+   0% {
+      letter-spacing: 3em;
+      -webkit-filter: blur(12px);
+      filter: blur(12px);
+      opacity: 0;
+   }
+
+   100% {
+      -webkit-filter: blur(0px);
+      filter: blur(0px);
+      opacity: 1;
+   }
+}
+
+.rotate-90-vertical-bck-main-logo {
+   animation: rotate-90-vertical-bck-main-logo 1s linear 1s both;
+}
+
+@keyframes rotate-90-vertical-bck-main-logo {
+   from {
+      transform: rotate(0deg);
+   }
+
+   35% {
+      transform: rotateX(90deg);
+   }
+
+   50% {
+      transform: rotateY(90deg);
+   }
+
+   to {
+      transform: rotateZ(360deg);
+   }
+}
+
+.shadedContainer {
+   background-color: #f5f5f5;
+   border-radius: 10px;
+   margin: 5px auto;
+   padding: 10px;
+   width: 75%;
+}
+
+.register-centerText {
+   text-align: center;
+   color: blanchedalmond;
+   border-radius: 10px;
+   margin: 5px auto;
+   padding: 3%;
+   width: 75%;
+}
+
+/* text *********************** */
+.centerText,
+center {
+   text-align: center;
+}
+
+.leftText {
+   text-align: left;
+}
+
+.error,
+.alert {
+   color: red;
+   text-align: center;
+}
+
+.formLayout {
+   width: 90%;
+   margin: 0 auto;
+   text-align: left;
+   padding: 2%;
+   border-radius: 6px;
+   border: 1px solid blanchedalmond;
+}
+
+.formGroup {
+   margin: 10px 0;
+}
+
+.formGroup2 div {
+   margin: 0% 0% 1% 6%;
+   text-align: Center;
+}
+
+.formLayout label {
+   width: 34%;
+   padding: 1% 5%;
+   display: inline-block;
+   text-align: right;
+   vertical-align: top;
+   clear: left;
+}
+
+.formLayout input[type=number] {
+   display: inline-block;
+   clear: right;
+   width: 5%;
+}
+
+.formLayout select[type=option] {
+   display: inline-block;
+   clear: right;
+   width: 5%;
+}
+
+.formLayout input,
+.formLayout select,
+.formLayout textarea {
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   color: #555555;
+   background-color: blanchedalmond;
+   font-size: medium;
+}
+
+type {
+   background-color: blue;
+}
+
+button {
+   width: 15%;
+   margin: 0px 38%;
+   color: darkred;
+   height: 40px;
+   font-size: 20px;
+}
+
+.button {
+   margin: auto;
+   display: block;
+   width: 30%;
+   height: 30px;
+   color: blanchedalmond;
+   background-color: darkred;
+   font-size: 20px;
+   text-decoration: none;
+   text-align: center;
+}
+
+td:nth-child(odd) {
+   font-weight: bold;
+}
