@@ -9,7 +9,7 @@ Some projects I've worked on:
 
   - I made a [video](https://www.youtube.com/watch?v=6erkLc7cwDs&t=16s) where I explain what Conway's Game of Life is and a demo of it all working together while explaining how it was made. This video also showcases the registering, and verification process of a user account into a database using php and SQL. 
 
-- [Wheel of Fortune]() - This is a web version of the popular game show 'Wheel of Fortune' using only HTML, CSS, and PHP.
+- [Wheel of Fortune](wheel_of_fortune) - This is a web version of the popular game show 'Wheel of Fortune' using only HTML, CSS, and PHP. No demonstration available as I currently have no server to run it
 
 - [eCommerce database project]() - Here, my team constructed a database that was modeled for an e-commerce retailer using SQL.
 
