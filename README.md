@@ -11,6 +11,6 @@ Some projects I've worked on:
 
 - [Wheel of Fortune](wheel_of_fortune) - This is a web version of the popular game show 'Wheel of Fortune' using only HTML, CSS, and PHP. The HTML makes the game visitable, while the PHP provides all of the games logic, and the CSS illustrates the games animations. No demonstration available as I currently have no server to run it.
 
-- [eCommerce database project]() - Here, my team constructed a database that was modeled for an e-commerce retailer using SQL.
+- [eCommerce database project](eCommerceDB) - Here, my team constructed a database that was modeled for an e-commerce retailer using SQL.
 
   - I made a [video](https://youtu.be/qb9ZS0wzS9k) where I demonstrate the SQL script functioning as I explain the architecture of the database and its tables.
