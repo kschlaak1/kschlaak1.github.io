@@ -14,5 +14,3 @@ Some projects I've worked on:
 - [eCommerce database project](https://github.com/kschlaak1/kschlaak1.github.io/tree/master/eCommerceDB) - Here, my team constructed a database that was modeled for an e-commerce retailer using SQL.
 
   - I made a [video](https://youtu.be/qb9ZS0wzS9k) where I demonstrate the SQL script functioning as I explain the architecture of the database and its tables.
-
-- ###############################################################################
